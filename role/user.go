@@ -6,8 +6,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	"../core"
-	"../util"
+	"mini-blockchain/core"
+	"mini-blockchain/util"
 )
 
 type User struct {

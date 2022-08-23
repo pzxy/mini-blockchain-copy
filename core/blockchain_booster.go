@@ -4,10 +4,10 @@ import (
 	"crypto/rsa"
 	"time"
 
-	"../config"
+	"mini-blockchain/config"
 )
 
-//InitializeBlockchainWithDiff creates a blockchain from scratch
+// InitializeBlockchainWithDiff creates a blockchain from scratch
 func InitializeBlockchainWithDiff(gensisAddress *rsa.PublicKey, diff Difficulty) Blockchain {
 	var chain Blockchain
 	chain.txMap = make(map[[config.HashSize]byte]*Transaction)

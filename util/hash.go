@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 
-	"../config"
+	"mini-blockchain/config"
 
 	"github.com/cnf/structhash"
 	"github.com/rs/xid"

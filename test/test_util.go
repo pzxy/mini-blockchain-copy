@@ -5,8 +5,8 @@ import (
 	"crypto/rsa"
 	"testing"
 
-	"../config"
-	"../core"
+	"mini-blockchain/config"
+	"mini-blockchain/core"
 )
 
 type NoDifficulty struct {

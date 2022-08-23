@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"time"
 
-	"./config"
-	"./core"
-	"./role"
-	"./util"
+	"mini-blockchain/config"
+	"mini-blockchain/core"
+	"mini-blockchain/role"
+	"mini-blockchain/util"
 )
 
 var chain core.Blockchain

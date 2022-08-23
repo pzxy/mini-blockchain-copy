@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"../config"
-	"../core"
+	"mini-blockchain/config"
+	"mini-blockchain/core"
 )
 
 func TestGensisBlock(t *testing.T) {

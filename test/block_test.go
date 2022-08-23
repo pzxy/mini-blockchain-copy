@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"../core"
+	"mini-blockchain/core"
 )
 
 func TestBlock(t *testing.T) {

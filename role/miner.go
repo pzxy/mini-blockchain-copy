@@ -6,8 +6,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	"../core"
-	"../util"
+	"mini-blockchain/core"
+	"mini-blockchain/util"
 )
 
 type Miner struct {
@@ -64,7 +64,7 @@ func (miner *Miner) StartMining() {
 				//miner.getLogger().Debugf("Not meet difficulty and sleep 1s\n")
 				time.Sleep(1000 * time.Millisecond)
 			}
-
+			util.GetTempLogger().Infof("------->%d", nuance)
 			nuance++
 		}
 

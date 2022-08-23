@@ -5,7 +5,7 @@ import (
 	"crypto/rsa"
 	"testing"
 
-	"../util"
+	"mini-blockchain/util"
 )
 
 func TestSign(t *testing.T) {
